@@ -1,5 +1,5 @@
 # ANGIS 2048 Game :tada:
-Welcome to my version of the classic game 2048! :wave: This adaptation retains the original gameplay mechanics but offers a different visual style for a fresh gaming experience. There is a high score tracking integrated. So you can compete with other players! Check out the current highest score (Angis2048/high_score.txt) . So go ahead and aim for the stars :sparkles: :trophy:
+Welcome to my version of the classic game 2048! :wave: This adaptation retains the original gameplay mechanics but offers a different visual style for a fresh gaming experience. There is a high score tracking integrated. So you can compete with other players! Check out the current highest score Angis2048/high_score.txt . So go ahead and aim for the stars :sparkles: :trophy:
 
 ## How to Play
 Simply run the game and enjoy! :smile:
