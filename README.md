@@ -2,22 +2,30 @@ ANGIS 2048 Game
 Welcome to my version of the classic game 2048! This adaptation retains the original gameplay mechanics but offers a different visual style for a fresh gaming experience.
 
 How to Play
+
 Simply run the game and enjoy!
 
 Code Structure
+
 Main Game Loop
+
 The main game loop starts at line 158 and ends at line 215 in main.py.
 
 Event Handling
+
 Event handling is integrated into the main game loop from line 183 to 208. This section defines how the game responds to player input such as directional keys, enter, and close keys.
 
 Initialization
+
 The game starts by loading necessary modules (Pygame and random) and initializing Pygame for graphics handling.
 
 Game Setup
+
 Initial game setup and configuration parameters are defined in config.py for easy customization.
 
+
 Defined Functions
+
 Several key functions are implemented:
 
 draw_board: Draws the game board (lines 22-28)
