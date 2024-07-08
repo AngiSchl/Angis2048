@@ -1,5 +1,5 @@
-# ANGIS 2048 Game
-Welcome to my version of the classic game 2048! This adaptation retains the original gameplay mechanics but offers a different visual style for a fresh gaming experience. There is a high score tracking integrated. So you can compete with other players! Check out the current highest score (./high_score.txt) . So go ahead and aim for the stars 🌠 🏆
+# ANGIS 2048 Game :tada:
+Welcome to my version of the classic game 2048! :wave: This adaptation retains the original gameplay mechanics but offers a different visual style for a fresh gaming experience. There is a high score tracking integrated. So you can compete with other players! Check out the current highest score (./high_score.txt) . So go ahead and aim for the stars :sparkels: :trophy:
 
 ## How to Play
 Simply run the game and enjoy!
@@ -26,5 +26,5 @@ Initial game setup and configuration parameters are defined in config.py for eas
 - game_over: Handles the end-game scenario when no more moves are possible (lines 68-74)
 - take_turn: Core function that processes player actions and updates the game state (lines 76-155)
 
-## Enjoy the Game!
+## Enjoy the Game! 
 Feel free to explore the code, tweak the settings in config.py, and have fun playing 2048 with a new visual twist!
