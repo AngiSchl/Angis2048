@@ -1,26 +1,30 @@
-# Angis2048
+ANGIS 2048 Game
+Welcome to my version of the classic game 2048! This adaptation retains the original gameplay mechanics but offers a different visual style for a fresh gaming experience.
 
-Hello and welcome to my game of 2048!
-This game is my version of the classic 2048, with the same playgame as the classic game but
-a different look.
-Please enjoy the game!
+How to Play
+Simply run the game and enjoy!
 
-I set up the game code as follows:
-The main game loop can be found from line 158 to 215.
-The event code can is part of this main game loop from line 183 to 208. This event code describes
-what shall happen if the player hits different buttons (direction, enter,
-or close keys on the keyboard).
+Code Structure
+Main Game Loop
+The main game loop starts at line 158 and ends at line 215 in main.py.
 
-The game code starts with loading the necessary modules (pygame and random) and the initialization
-of pygame.
-After this code, I defined the initial set-up of the game. Most of those parameter, to change the
-design of the game, are stored in a second Python sheet for a better visibility.
-The necessary, defined functions which are used in my game are following. There are four functions
-that are needed to have the make the board/game appear on the screen. The first one is the
-draw_board function (line 22 - 28). The second is the new pieces function (line 30 - 45), and the
-third one is the draw pieces function (line 47 - 66). The fourth function is needed in case the
-game is finished because there are no more moves possible (game over event) (line 68 - 74).
-The core function of the game is the take turn actions. This function describes what will happen
-to the different pieces on the board, if an event key is hit (direction to move is indicated). This
-function start in line 76 and runs to 155.
+Event Handling
+Event handling is integrated into the main game loop from line 183 to 208. This section defines how the game responds to player input such as directional keys, enter, and close keys.
 
+Initialization
+The game starts by loading necessary modules (Pygame and random) and initializing Pygame for graphics handling.
+
+Game Setup
+Initial game setup and configuration parameters are defined in config.py for easy customization.
+
+Defined Functions
+Several key functions are implemented:
+
+draw_board: Draws the game board (lines 22-28)
+new_pieces: Generates new game pieces (lines 30-45)
+draw_pieces: Renders game pieces on the board (lines 47-66)
+game_over: Handles the end-game scenario when no more moves are possible (lines 68-74)
+take_turn: Core function that processes player actions and updates the game state (lines 76-155)
+
+Enjoy the Game!
+Feel free to explore the code, tweak the settings in config.py, and have fun playing 2048 with a new visual twist!
