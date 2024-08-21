@@ -184,7 +184,7 @@ while run:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             run = False
-        if event.type == pygame.KEYUP:
+        if event.type == pygame.KEYUP and not game_over:
             if event.key == pygame.K_UP:
                 direction = 'UP'
             elif event.key == pygame.K_DOWN:
