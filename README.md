@@ -2,7 +2,7 @@
 Welcome to my version of the classic game 2048! :wave: This adaptation retains the original gameplay mechanics but offers a slightlz different visual style for a fresh gaming experience. There is a high score tracking integrated. So you can compete with other players! Check out the current highest score (./high_score.txt). So go ahead and aim for the stars :sparkles: :trophy:
 
 ## How to Play
-Simply run the game and enjoy! :smile:
+Simply run the game and enjoy! :smile: The game ends, if the field is fully populated. 
 
 ## Code Structure
 ### Main Game Loop
