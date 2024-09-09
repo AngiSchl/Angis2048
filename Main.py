@@ -194,15 +194,15 @@ while run:
             elif event.key == pygame.K_LEFT:
                 direction = 'LEFT'
 
-            if game_over:
-                # Click enter to restart the game after you lost:
-                if event.key == pygame.K_RETURN:
-                    board_values = [[0 for _ in range(4)] for _ in range(4)]
-                    spawn_new = True
-                    init_count = 0
-                    score = 0
-                    direction = ''
-                    game_over = False
+        if game_over:
+            # Click enter to restart the game after you lost:
+            if event.key == pygame.K_RETURN:
+                board_values = [[0 for _ in range(4)] for _ in range(4)]
+                spawn_new = True
+                init_count = 0
+                score = 0
+                direction = ''
+                game_over = False
 
         if event.type == pygame.MOUSEBUTTONDOWN:
             pass
